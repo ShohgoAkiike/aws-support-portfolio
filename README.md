@@ -5,8 +5,8 @@
 
 ## 対応ケース一覧
 
-1. [S3 アップロード制御に関する IAM 設計（INC-100999）](./cases/s3-permission.md)
-2. [EBS スナップショット／ボリューム置換に関する問い合わせ（SCTASK0111044）](./cases/ebs-snapshot.md)
+1. [S3 アップロード制御に関する IAM 設計](./cases/s3-permission.md)
+2. [EBS スナップショット／ボリューム置換に関する問い合わせ](./cases/ebs-snapshot.md)
 
 ---
 
