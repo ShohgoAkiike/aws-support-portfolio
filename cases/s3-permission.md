@@ -53,3 +53,24 @@ AWS公式のポリシー評価ロジック
 ## ■ 最終結論（お客様側）
 
 - 「PowerUserAccess＋S3アップロード禁止のカスタムポリシー」で対応する方針にてクローズ
+
+---
+## 📚 参考資料
+
+### ■ IAM ポリシー関連
+
+- **[1] ポリシーの評価論理**  
+  https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_evaluation-logic.html
+
+- **[2] PowerUserAccess**  
+  https://docs.aws.amazon.com/ja_jp/aws-managed-policy/latest/reference/PowerUserAccess.html
+
+
+### ■ S3 / アクセス権限関連
+
+- **[1] AmazonS3ReadOnlyAccess**  
+  https://docs.aws.amazon.com/ja_jp/aws-managed-policy/latest/reference/AmazonS3ReadOnlyAccess.html
+
+- **[2] 明示的な拒否と暗黙的な拒否の違い**  
+  https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_evaluation-logic_AccessPolicyLanguage_Interplay.html
+
