@@ -10,6 +10,10 @@
 - 公式ドキュメント及びAWSサポート回答を基にした正確な技術回答を得意とする
 - 対応件数：XX件以上
 
+## 🏅 Certifications (Credly)
+AWS 認定資格バッジ一覧はこちら  
+👉 [https://www.credly.com/users/shohgo-akiike](https://www.credly.com/users/shohgo-akiike)
+
 ## 対応ケース一覧
 
 1. [S3 アップロード制御に関する IAM 設計](./cases/s3-permission.md)
