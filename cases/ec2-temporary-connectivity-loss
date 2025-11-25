@@ -42,16 +42,18 @@ AWS基盤障害の詳細はAWS内部仕様で非公開である旨を説明
 ただし再発懸念がある場合は
 インスタンスの停止・起動（＝新しい物理ホストへ移動）を推奨
 
+  公式ドキュメント引用（[1] より）
+> ユーザーがインスタンスを停止すると、インスタンスはシャットダウンされます。
+> インスタンスを起動すると、通常、インスタンスは基盤となる新しいホストコンピュータに移行され、新しいパブリック IPv4 アドレスが割り当てられます。
+
 ---
 
 ## ■ 最終結論（お客様側）
 
-回答内容をもとに作業イメージを明確にし、社内作業手順の策定に進むとのことで問い合わせクローズ。
+回答内容についてご納得いただけたとのことで問い合わせクローズ。
 
 ---
 ## 📚 参考資料（AWS公式ドキュメント）
 
-- **[1] Amazon EBS スナップショットの作成**  
-  [https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_evaluation-logic.html](https://docs.aws.amazon.com/ja_jp/ebs/latest/userguide/ebs-creating-snapshot.html)
-
-
+- **[1] Amazon EC2 インスタンスの停止と起動**  
+  [https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/Stop_Start.html](https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/Stop_Start.html)
