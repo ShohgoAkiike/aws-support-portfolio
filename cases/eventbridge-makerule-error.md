@@ -33,5 +33,5 @@
 ---
 ## 📚 参考資料（AWS公式re:Post）
 
-- **[1] Amazon VPC 内のデフォルト VPC を作成、削除、または復元する方法を教えてください。**  
+- **[1] **  
   [https://repost.aws/ja/knowledge-center/deleted-default-vpc](https://repost.aws/ja/knowledge-center/deleted-default-vpc)
