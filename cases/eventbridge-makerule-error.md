@@ -34,18 +34,22 @@ AWS公式ドキュメントを参照し、
 
 そのため、S3 の PutObject イベントを 直接カスタムイベントバスに送信することは不可 であることを確認。
 
+ 公式ドキュメント引用（[2] より）
+> 多くの AWS サービスは、EventBridge が受け取るイベントを生成します。
+> アカウントの AWS サービスが EventBridge にイベントを送信すると、アカウントのデフォルトのイベントバスに送信されます。
+
+> Your account's default event bus receives events from AWS services.
+> A custom event bus can receive events from your custom applications and services.
+
+以下日本語訳
+> アカウントのデフォルトのイベントバスは、AWS のサービスからイベントを受信します。
+> カスタムイベントバスは、カスタムアプリケーションやサービスからイベントを受信できます。
+
 要件を満たすには
 **デフォルトイベントバス → カスタムイベントバス** へのルールによる転送設定
 を行う必要がある。
 
 ---
-
-## ■ お客様への提案
-
-
-
----
-
 
 ## ■ 最終結論（お客様側）
 
