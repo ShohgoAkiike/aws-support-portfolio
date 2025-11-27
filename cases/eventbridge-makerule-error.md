@@ -38,6 +38,7 @@ AWS公式ドキュメントを参照し、
 > 多くの AWS サービスは、EventBridge が受け取るイベントを生成します。
 > アカウントの AWS サービスが EventBridge にイベントを送信すると、アカウントのデフォルトのイベントバスに送信されます。
 
+ 公式ドキュメント引用（[3] より）
 > Your account's default event bus receives events from AWS services.
 > A custom event bus can receive events from your custom applications and services.
 
