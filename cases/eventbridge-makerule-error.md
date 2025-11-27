@@ -48,5 +48,5 @@ AWS公式ドキュメントを参照し、
 ---
 ## 📚 参考資料（AWS公式re:Post）
 
-- **[1] **  
-  [https://repost.aws/ja/knowledge-center/deleted-default-vpc](https://repost.aws/ja/knowledge-center/deleted-default-vpc)
+- **[1] EventBridge イベントバスのクォータ**  
+  [https://docs.aws.amazon.com/ja_jp/eventbridge/latest/userguide/eb-quota.html?#eb-limits](https://docs.aws.amazon.com/ja_jp/eventbridge/latest/userguide/eb-quota.html?#eb-limits)
