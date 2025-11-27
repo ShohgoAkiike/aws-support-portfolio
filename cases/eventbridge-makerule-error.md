@@ -61,8 +61,9 @@ AWS公式ドキュメントを参照し、
 - **[1] EventBridge イベントバスのクォータ**  
   [https://docs.aws.amazon.com/ja_jp/eventbridge/latest/userguide/eb-quota.html?#eb-limits](https://docs.aws.amazon.com/ja_jp/eventbridge/latest/userguide/eb-quota.html?#eb-limits)
 
-- **[2] AWS サービスからのイベント**
+- **[2] AWS サービスからのイベント**  
   [https://docs.aws.amazon.com/ja_jp/eventbridge/latest/userguide/eb-events.html#eb-service-event](https://docs.aws.amazon.com/ja_jp/eventbridge/latest/userguide/eb-events.html#eb-service-event)
 
-- **[3] EventBus**
+- **[3] EventBus**  
   [https://docs.aws.amazon.com/ja_jp/eventbridge/latest/APIReference/API_EventBus.html](https://docs.aws.amazon.com/ja_jp/eventbridge/latest/APIReference/API_EventBus.html)
+
