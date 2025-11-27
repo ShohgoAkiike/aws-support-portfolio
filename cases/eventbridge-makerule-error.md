@@ -52,7 +52,7 @@ AWS公式ドキュメントを参照し、
 
 
 ---
-## 📚 参考資料（AWS公式re:Post）
+## 📚 参考資料（AWS公式ドキュメント）
 
 - **[1] EventBridge イベントバスのクォータ**  
   [https://docs.aws.amazon.com/ja_jp/eventbridge/latest/userguide/eb-quota.html?#eb-limits](https://docs.aws.amazon.com/ja_jp/eventbridge/latest/userguide/eb-quota.html?#eb-limits)
