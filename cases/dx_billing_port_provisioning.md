@@ -49,7 +49,22 @@
 
 ## ■ 回答（AWS公式ドキュメントに基づく）
 
-AWS基盤側の障害である旨回答。また再発時の懸念についてはインスタンスの停止・起動にて新しい物理ホストへ移動することを提案
+### 課金開始タイミング
+- DXの課金は **「ポートがプロビジョニングされたタイミング」** から発生
+- データ転送の有無や VIF の作成、BGP ピアの UP 状態に関わらず、ポート時間課金が開始される
+
+### ポート＝接続（コネクション）の理解
+- お客様の理解通りで相違なし
+- ホスト型接続の場合、パートナーが接続をプロビジョニングし、ユーザーが承諾した時点で課金開始
+
+### 補足事項
+- VIF 作成や BGP ピア UP は課金条件ではない
+- 料金算出には容量、ポート時間、データ転送量が影響するため、詳細はお客様側で見積もり可能
+
+### 参照ドキュメント
+1. [AWS Direct Connect 料金](https://aws.amazon.com/jp/directconnect/pricing/)
+2. [AWS Direct Connect FAQ](https://aws.amazon.com/jp/directconnect/faqs/)
+3. [Hosted Connection 受入れ手順](https://docs.aws.amazon.com/ja_jp/directconnect/latest/UserGuide/accept-hosted-connection.html)
 
 ---
 
