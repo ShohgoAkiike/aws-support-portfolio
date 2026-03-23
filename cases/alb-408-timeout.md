@@ -38,7 +38,7 @@
 
 ```text
 AH01030: ajp_ilink_receive() can't receive header
-```text
+```
 
 → Apache ↔ Tomcat間のAJP通信タイムアウトと推測
 
