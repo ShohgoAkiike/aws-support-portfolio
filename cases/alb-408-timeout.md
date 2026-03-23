@@ -29,7 +29,7 @@
 #### ③ ALBアクセスログ、Webサーバログ分析
 
 - request_processing_time：0.000
-- target_processing_time：100秒以上[1] 
+- target_processing_time：100秒以上
 
 → ALBは即時転送  
 → ターゲット（EC2）の応答遅延が原因
