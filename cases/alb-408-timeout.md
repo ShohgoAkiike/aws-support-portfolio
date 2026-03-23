@@ -29,7 +29,7 @@
 #### ③ ALBアクセスログ、Webサーバログ分析
 
 - request_processing_time：0.000
-- target_processing_time：100秒以上
+- target_processing_time：100秒以上[1] 
 
 → ALBは即時転送  
 → ターゲット（EC2）の応答遅延が原因
@@ -60,8 +60,8 @@ AWSサポートへエスカレーションを実施。
 - Tomcatログの詳細調査
 - アプリケーション側の処理遅延の確認
 - 必要に応じて以下の設定見直し
-- - Tomcatのスレッド設定
-- - タイムアウト設定
+　- Tomcatのスレッド設定
+　- タイムアウト設定
 
 ---
 
