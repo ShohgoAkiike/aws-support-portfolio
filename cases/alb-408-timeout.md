@@ -17,14 +17,29 @@
 
 ---
 
-### ② お客様へ情報提供依頼、ログ調査
+### ② お客様へ情報提供依頼
 
 提供内容：
 
 - 過去にも同様事象あり
-- Webサーバ：Apache + Tomcat（apache-tomcat-9.0.71）
+- 使用しているWebサーバ：Apache + Tomcat（apache-tomcat-9.0.71）
 - ALBアクセスログ（該当時間帯）
 - EC2ログ一式
+
+#### ③ ALBアクセスログ、Webサーバログ分析
+
+- request_processing_time：0.000
+- target_processing_time：100秒以上
+
+→ ALBは即時転送  
+→ ターゲット（EC2）の応答遅延が原因
+
+- エラー：
+
+```text
+AH01030: ajp_ilink_receive() can't receive header
+
+→ Apache ↔ Tomcat間のAJP通信タイムアウトと推測
 
 ---
 
