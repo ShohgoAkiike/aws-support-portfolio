@@ -29,7 +29,7 @@
 ### ③ ALBアクセスログ、Webサーバログ分析
 
 - request_processing_time：0.000
-- target_processing_time：100秒以上
+- target_processing_time：**100**秒以上
 
     公式ドキュメント引用（[1] より）
 > request_processing_time　ロードバランサーがリクエストを受け取った時点からターゲットにリクエストを送信するまでの合計経過時間
@@ -37,7 +37,7 @@
 > target_processing_time　ロードバランサーがターゲットにリクエストを送信した時点から、そのターゲットが応答ヘッダーの送信を開始した時点までの合計経過時間
 
 → ALBは即時転送  
-→ ターゲット（EC2）の応答遅延が原因
+→ ターゲット（EC2）の**応答遅延**が原因
 
 - エラー：
 
