@@ -43,7 +43,7 @@ AWS公式のポリシー評価ロジック
 
 ---
 
-### ④ Admin を使わせたくない場合の代替
+### ④ AdministratorAccess権限 を使わせたくない場合の代替
 
 - PowerUserAccess は IAM 管理権限を持たないため安全性が高い
 - Admin の代替ロールとして公式ドキュメントでも有効
