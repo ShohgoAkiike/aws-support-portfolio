@@ -25,7 +25,7 @@
 
 - AWS Certified Cloud Practitioner
 - AWS Certified Solutions Architect – Associate
-- AWS Certified Solutions Architect - Associate
+- AWS Certified CloudOps Engineer - Associate
 - LinuC レベル1
 - 全日本能率連盟登録資格称号第127号 システム管理者アソシエイト
 
